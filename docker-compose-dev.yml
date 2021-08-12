@@ -1,6 +1,15 @@
 version: '3'
 
 services:
+  smartbidsapp:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - smartbidsdb
+
   smartbidsdb:
     image: mysql:latest
     ports:
