@@ -8,3 +8,5 @@ And also this demonstrates how architecture is screaming (screaming architecture
 3. Application layer handles all the transactions
 4. Presentation layer for current implementation is Rest (but can easily plug graph ql, Grpc, web socket and etc.)
 
+Noe : Same functionality (same user service) implemented using legacy layered architecture lives in https://github.com/lmsamarawickrama/User-serivce-legacy-layered-architecture
+
